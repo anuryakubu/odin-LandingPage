@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.hero {
+    background-color: #1f2937;
+    padding: 20px 0;
+}
+
+.nav {
+    display: flex;
+    flex-flow: row wrap;
+    color: white;
+    align-items: center;
+}
+
+.container {
+    margin: 0 200px;
+}
+
+nav {
+    margin-left: auto;
+}
+
+#nav-flex {
+   display: flex;
+   list-style: none;
+}
+
+li {
+    margin: 0 15px;
+}
+
+#logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.hero-header {
+    display: flex;
+    margin: 100px 0;
+}
+
+#text-header {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero-text {
+    margin-right: 30px;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-top: 15px;
+}
+
+a {
+    display: inline-block;
+    background-color: #00bfff;
+    padding: 10px 50px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+#random {
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+}
+
+.info {
+    height: 500px;
+}
+
+.info-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    width: 165px;
+    height: 220px;
+}
+
+.rect {
+    width: 165px;
+    height: 165px;
+    border: 3px solid #00bfff;
+    border-radius: 10px;
+    
+}
+
+.align-text {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    min-height: 450px;
+}
+
+.quote-container {
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: column;
+    margin: 0 330px;
+}
+
+.italic {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.thor {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 50px;
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+.action {
+    display: flex;
+    background-color: #00bfff;
+    padding: 50px 50px;
+    border-radius: 10px;
+}
+
+#action, #sign {
+    margin: 0 90px;
+    color: white;
+}
+
+#sign {
+    border: 2px solid white;
+}
+
+#bold {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #1f2937;
+}
+
+.copy {
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+
